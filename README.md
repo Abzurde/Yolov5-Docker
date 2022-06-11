@@ -17,7 +17,7 @@ Prepare your data folder locally as show below
 
 <details open>
 <summary>Virtual Env</summary>
-###Now we are going to create and use a [**Python>=3.7.0**] environnement (use your cmd interface)
+Now we are going to create and use a [**Python>=3.7.0**] environnement (use your cmd interface)
   
 ```
 conda create --name your_env_name python=3.7
