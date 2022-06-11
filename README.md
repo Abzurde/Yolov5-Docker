@@ -26,7 +26,7 @@ conda activate your_env_name
 <details open>
 <summary>Build Image</summary>
   
-In you local environnement, reach your cloneed repo and use the following line: 
+In you local environnement, reach your cloneed repo and use the following line (don't forget the . which corresponds to pwd): 
   ```bash
 docker build -t yolov5:4.0 . 
 ```
