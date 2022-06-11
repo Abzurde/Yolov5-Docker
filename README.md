@@ -3,3 +3,10 @@
 
 <details open>
 <summary>Install</summary>
+Clone repo and install
+  
+
+```bash
+https://github.com/Abzurde/yolov5.git
+```
+  
