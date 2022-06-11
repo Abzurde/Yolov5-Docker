@@ -2,7 +2,7 @@
 ## Using your own weights and images with Docker
 
 <details open>
-<summary>Install</summary>
+<summary>Install and Prepare</summary>
 Clone repo on you local host and install in a [**Python>=3.7.0**](https://www.python.org/) environment
   
 ```bash
@@ -14,5 +14,10 @@ Prepare your data folder locally as show below
   - Image_Folder
   - Weights (your best.pt  for example)
   - Coco128.yaml
+
+<summary>Virtual Env</summary>
+### Now we are going to create and use a [**Python>=3.7.0**] environnement
   
-### Now we are going to use a linux environnement
+```
+
+```
