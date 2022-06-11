@@ -11,6 +11,8 @@ https://github.com/Abzurde/yolov5.git
 ```
 Then prepare your data folder locally as show below
 * Main folder
-  * Image_Folder
-  * Weights (your best.pt  for example)
-  * Coco128.yaml
+  - Image_Folder
+  - Weights (your best.pt  for example)
+  - Coco128.yaml
+  
+
