@@ -3,16 +3,16 @@
 
 <details open>
 <summary>Install</summary>
-Clone repo and install in a [**Python>=3.7.0**](https://www.python.org/) environment
+Clone repo on you local host and install in a [**Python>=3.7.0**](https://www.python.org/) environment
   
-
 ```bash
-https://github.com/Abzurde/yolov5.git
+git clone https://github.com/Abzurde/yolov5.git
 ```
-Then prepare your data folder locally as show below
+
+Prepare your data folder locally as show below
 * Main folder
   - Image_Folder
   - Weights (your best.pt  for example)
   - Coco128.yaml
   
-
+### Now we are going to use a linux environnement
