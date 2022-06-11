@@ -38,5 +38,18 @@ winpty docker run --mount type=bind,source="$(pwd)",target=/usr/src/app/data -it
 ```
 and import your data inside of the conatiner with (you can erase the **--save-crop** if you don't want your image to be cropped):
 ```bash
-python detect.py --weights /usr/src/app/data/best.pt --source /usr/src/app/data/Bank_Statement_jai_18_05_2022 --save-crop
+python detect.py --weights /usr/src/app/data/your_weights_file --source /usr/src/app/data/your_image_folder --save-crop
 ```
+<details open>
+<summary>Copy your output in your local host</summary>
+Open another cmd interface (because a container is totally isolated, so we can't use this line directly inside of it)
+Before copying the output folder, let's get the our container id:
+```bash
+docker ps -a
+```
+When you have your container id, replace it in this following line:
+```bash
+docker cp your_container_id:/usr/src/app/runs/detect/exp .
+```
+  
+Here you go you have your files !
