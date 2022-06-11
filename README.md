@@ -15,6 +15,7 @@ Prepare your data folder locally as show below
   - Weights (your best.pt  for example)
   - Coco128.yaml
 
+<details open>
 <summary>Virtual Env</summary>
 ### Now we are going to create and use a [**Python>=3.7.0**] environnement
   
