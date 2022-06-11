@@ -42,6 +42,7 @@ python detect.py --weights /usr/src/app/data/your_weights_file --source /usr/src
 ```
 <details open>
 <summary>Copy your output in your local host</summary>
+  
 Open another cmd interface (because a container is totally isolated, so we can't use this line directly inside of it)
 Before copying the output folder, let's get the our container id:
 ```bash
